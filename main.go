@@ -9,6 +9,7 @@ func main() {
 	var a int
 	var b int = 6
 
+	// Test change for squash
 	for a = 12; a <= 18; a++ {
 		fmt.Printf("Division: %d/%d\n===============\n", a, b)
 		noConv  := a / b                                   // No conversion at all
